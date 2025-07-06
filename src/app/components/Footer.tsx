@@ -15,11 +15,13 @@ export default function Footer() {
 
   // Function to handle smooth scroll to sections
   const handleScrollToSection = (id: string) => {
+     if (typeof window !== 'undefined') { 
     const section = document.getElementById(id);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
     }
-  };
+  }
+};
 
   return (
     <footer
