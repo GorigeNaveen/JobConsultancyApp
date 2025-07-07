@@ -1,21 +1,28 @@
+// components/About.tsx (Assuming this is the file for AboutPage)
 "use client";
 
 import { motion } from "framer-motion";
-// Assuming these components are in the same directory or accessible via path
 import AnimatedSection from "./AnimatedSection";
-import LottiePlayerComponent from "./LottiePlayerComponent";
+import dynamic from "next/dynamic"; 
+
+const DynamicLottiePlayer = dynamic(() => import("./LottiePlayerComponent"), {
+  ssr: false,
+  loading: () => (
+    <div className="w-full max-w-sm h-auto flex items-center justify-center text-gray-500">
+      Loading animation...
+    </div>
+  ),
+});
 
 const AboutPage = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-[#f0f7ff] to-[#e0fff4] font-['Inter']">
-
-      
       <section id="about" className="flex-1 flex flex-col items-center justify-center px-8 md:px-16 py-15 md:py-35 text-center">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="max-w-5xl w-full" // Increased max-width for better content flow
+          className="max-w-5xl w-full" 
         >
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight text-gray-900 mb-12">
             About NR Work Force
@@ -33,7 +40,6 @@ const AboutPage = () => {
                 </p>
               </div>
               <div className="lg:w-1/2 flex justify-center items-center">
-                {/* Placeholder Lottie for 'Connecting People' */}
                 <motion.div
                   initial={{ opacity: 0, y: 40 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -41,13 +47,14 @@ const AboutPage = () => {
                   className="w-3/4 "
                 >
                   <AnimatedSection direction="down" delay={0}>
-                  <div className="w-full ">
-                    <LottiePlayerComponent
-                      src="/bring-people-together.json" // Make sure this path is correct in your public folder
-                      className="w-5/6 h-full "
-                    />
-                  </div>
-                </AnimatedSection>
+                    <div className="w-full ">
+                      {/* Use DynamicLottiePlayer here */}
+                      <DynamicLottiePlayer
+                        src="/bring-people-together.json" // Make sure this path is correct in your public folder
+                        className="w-5/6 h-full "
+                      />
+                    </div>
+                  </AnimatedSection>
                 </motion.div>
               </div>
             </div>
@@ -65,8 +72,8 @@ const AboutPage = () => {
                 </p>
               </div>
               <div className="lg:w-1/2 flex justify-center items-center">
-                {/* Placeholder Lottie for 'Vision' */}
-                <LottiePlayerComponent
+                {/* Use DynamicLottiePlayer here */}
+                <DynamicLottiePlayer
                   src="/our-vision.json" // Ensure this path is correct in your public folder
                   className="w-full max-w-sm h-auto rounded-xl"
                 />
@@ -86,8 +93,8 @@ const AboutPage = () => {
                 </p>
               </div>
               <div className="lg:w-1/2 flex justify-center items-center">
-                {/* Placeholder Lottie for 'Mission' */}
-                <LottiePlayerComponent
+                {/* Use DynamicLottiePlayer here */}
+                <DynamicLottiePlayer
                   src="/our-mission.json" // Ensure this path is correct in your public folder
                   className="w-full max-w-sm h-auto rounded-xl"
                 />
