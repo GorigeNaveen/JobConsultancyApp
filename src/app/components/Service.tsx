@@ -23,7 +23,7 @@ const services: Service[] = [
     id: 2,
     title: 'Manufacturing Hiring',
     description:
-      'We at Squareroot are proud to have an experienced professional team for executive or leadership hiring for Manufacturing firm.',
+      'We at NR Work Force are proud to have an experienced professional team for executive or leadership hiring for Manufacturing firm.',
     imgSrc: '/images/manufacturing.svg',
   },
   {
@@ -71,14 +71,6 @@ const Services: React.FC = () => {
                            border border-gray-100"
                 whileHover={{ y: -5 }} // Slight lift on hover
               >
-                {/* Service Image/Icon */}
-                <div className="mb-6">
-                  <img
-                    src={service.imgSrc}
-                    alt={service.title}
-                    className="w-24 h-24 object-contain rounded-full p-4 bg-blue-50 shadow-md" // Styled icon
-                  />
-                </div>
 
                 {/* Service Title */}
                 <h3 className="text-2xl font-bold text-gray-800 mb-3 text-center truncate w-full"> {/* Added truncate and w-full */}
@@ -91,20 +83,7 @@ const Services: React.FC = () => {
                     {service.description}
                   </p>
                 </div>
-
-                {/* Call to Action */}
-                <a
-                  href="#" // Replace with actual link if available
-                  className="mt-auto inline-flex items-center justify-center px-6 py-3
-                             bg-blue-600 text-white font-semibold rounded-full shadow-md
-                             hover:bg-blue-700 hover:shadow-lg transition-all duration-300
-                             focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75"
-                >
-                  Learn More
-                  <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                  </svg>
-                </a>
+              
               </motion.div>
             </AnimatedSection>
           ))}

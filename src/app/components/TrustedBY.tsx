@@ -32,16 +32,7 @@ const trustedCompanies: Company[] = [
     name: "Amazon",
     logoSrc: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
   },
-  {
-    id: 7,
-    name: "Tesla",
-    logoSrc: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors_logo.svg",
-  },
-  {
-    id: 8,
-    name: "Adobe",
-    logoSrc: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Systems_logo_and_wordmark.svg",
-  },
+
 ];
 
 

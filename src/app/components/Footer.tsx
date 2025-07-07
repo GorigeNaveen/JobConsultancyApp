@@ -37,11 +37,6 @@ export default function Footer() {
           viewport={{ once: true, amount: 0.5 }} // Animate only once when in view
           className="flex flex-col items-start"
         >
-          <img
-            src="/logo4.png" // Updated logo path
-            alt="NR Work Force Logo"
-            className="w-16 h-auto mb-4 rounded-full shadow-md" // Styled logo
-          />
           <h2 className="font-extrabold text-2xl text-gray-900 mb-2">NR Work Force</h2> {/* Updated brand name */}
           <p className="text-base text-gray-600">Connecting Talent with Opportunity</p> {/* Updated slogan */}
         </motion.div>

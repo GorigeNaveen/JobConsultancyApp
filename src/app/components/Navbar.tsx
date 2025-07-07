@@ -39,7 +39,11 @@ export default function Navbar() {
         {/* Logo and Brand Name */}
         <div className="flex items-center gap-3"> {/* Increased gap */}
           {/* Assuming /logo4.png exists and is styled appropriately */}
-          <img src="/logoWithName.png" alt="NR Work Force Logo" className="h-10 w-auto " /> {/* Slightly larger, rounded logo */}
+          <img
+            src="/logoWithName.png"
+            alt="NR Work Force Logo"
+            className="h-8 w-auto sm:h-10"
+          />
           <h1 className="font-extrabold text-2xl md:text-3xl text-gray-900 whitespace-nowrap tracking-wide"> {/* Larger, bolder text */}
             {/* NR Work Force */}
           </h1>
