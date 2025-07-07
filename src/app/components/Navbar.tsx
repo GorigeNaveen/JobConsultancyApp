@@ -24,13 +24,14 @@ export default function Navbar() {
 
   // Function to handle smooth scroll (placeholder, actual implementation would involve refs or IDs)
   const handleScrollToSection = (id: string) => {
-     if (typeof window !== 'undefined' && typeof document !== "undefined") { 
-    const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
-    }
-    setMenuOpen(false); // Close menu after clicking on a link
-  }
+  //    if (typeof window !== 'undefined' && typeof document !== "undefined") { 
+  //   const section = document.getElementById(id);
+  //   if (section) {
+  //     section.scrollIntoView({ behavior: 'smooth' });
+  //   }
+  //   setMenuOpen(false); // Close menu after clicking on a link
+  // }
+  console.log(`Scrolling to section: ${id}`); // Placeholder for scroll functionality
   };
 
   return (
