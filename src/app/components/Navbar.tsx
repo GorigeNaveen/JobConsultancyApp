@@ -24,7 +24,7 @@ export default function Navbar() {
 
   // Function to handle smooth scroll (placeholder, actual implementation would involve refs or IDs)
   const handleScrollToSection = (id: string) => {
-     if (typeof window !== 'undefined') { 
+     if (typeof window !== 'undefined' && typeof document !== "undefined") { 
     const section = document.getElementById(id);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
