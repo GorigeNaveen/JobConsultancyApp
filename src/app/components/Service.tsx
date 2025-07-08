@@ -30,14 +30,14 @@ const services: Service[] = [
     id: 3,
     title: 'GCC Hiring',
     description:
-      'You will work with a team that has a wide range of recruitment network practices & understands your industry inside out. We keep your company culture in mind.',
+      'You will work with a team that has a wide range of recruitment network practices & understands your industry inside out.',
     imgSrc: '/images/gcc.svg',
   },
   {
     id: 4,
     title: 'Contract Staffing',
     description:
-      'You will work with a team that has a wide range of recruitment network practices & understands your industry inside out. We keep your company culture in mind.',
+      'You will collaborate with a team that possesses deep industry insight and a broad recruitment network tailored to your field.',
     imgSrc: '/images/contract.svg',
   },
 ];

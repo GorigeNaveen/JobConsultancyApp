@@ -17,7 +17,7 @@ const practices: Practice[] = [
     id: 1,
     title: 'CEO & CTO',
     description:
-      'A leader defines success by integrating complex functional areas with a strong commercial perspective, creating strategic advantage and driving coherence across different expertise within large organizations.',
+      'A leader drives success by uniting complex functions with business insight, building strategic value, and ensuring alignment across diverse expertise within large organizations.',
     iconSrc: '/icons/ceo-cto.svg',
   },
   {
@@ -31,7 +31,7 @@ const practices: Practice[] = [
     id: 3,
     title: 'Operations',
     description:
-      'The Internet is a cost-effective driver of supply chain integration, transforming processes from procurement to customer management. e-Business merges the Internet with supply chain management.',
+      'The Internet enables cost-effective supply chain integration, streamlining everything from sourcing to customer service. e-Business blends web technology with supply chain operations',
     iconSrc: '/icons/operations.svg',
   },
   {
@@ -45,7 +45,7 @@ const practices: Practice[] = [
     id: 5,
     title: 'IT',
     description:
-      'We are in a technology-driven era. Technology transforms information into business insights, providing strategic direction. We assist in identifying platform team members and tech leaders.',
+      'We live in a tech-led era. Technology turns data into insights that guide strategy. We help identify key platform experts and strong technology leaders for business success',
     iconSrc: '/icons/it.svg',
   },
   {
