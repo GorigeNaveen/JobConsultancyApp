@@ -1,7 +1,7 @@
 "use client";
 
 import { FaPhone, FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
-import { motion } from "framer-motion"; // Import motion for animations
+import { motion } from "framer-motion"; 
 
 export default function Footer() {
   // Define navigation items for consistency with Navbar
@@ -71,33 +71,32 @@ export default function Footer() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
           viewport={{ once: true, amount: 0.5 }}
-          className="md:col-span-2 lg:col-span-2" // Span 2 columns on medium and large screens for better layout
+          className="md:col-span-2 lg:col-span-2" 
         >
-          <h3 className="font-bold text-xl text-blue-700 mb-4">Get In Touch</h3> {/* Changed title */}
-          <ul className="space-y-4 text-base"> {/* Increased spacing */}
+          <h3 className="font-bold text-xl text-blue-700 mb-4">Get In Touch</h3> 
+          <ul className="space-y-4 text-base"> 
             <li className="flex items-start">
-              <FaMapMarkerAlt className="text-blue-600 mt-1 mr-3 text-xl flex-shrink-0" /> {/* Larger icon, margin */}
+              <FaMapMarkerAlt className="text-blue-600 mt-1 mr-3 text-xl flex-shrink-0" /> 
               <a
                 href="https://www.google.com/maps/search/NO+1,+Khata+No+927,+Hesarghatta+Main+Rd,+Opp+Reliance+point,+Maheśwari+Nagar,+Bengaluru,+Karnataka+560057"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 hover:text-blue-600 transition-colors"
               >
-                NO 1, Khata No 927, Hesarghatta Main Rd, Opp Reliance point, <br />
-                Maheśwari Nagar, Bengaluru, Karnataka 560057
-              </a>
-            </li>
-            <li className="flex items-center">
-              <FaPhone className="text-blue-600 mr-3 text-xl flex-shrink-0" />
-              <a href="tel:+919731163004" className="text-gray-700 hover:text-blue-600 transition-colors">
-                (+91) 9731163004
+                plot no 98 maruthi nagar , tirmalagiri, <br />
+                 Hyderabad, Telangana 500015,
               </a>
             </li>
             <li className="flex items-start">
               <FaEnvelope className="text-blue-600 mt-1 mr-3 text-xl flex-shrink-0" />
-              <a href="mailto:resume@squarerootindia.com" className="text-gray-700 hover:text-blue-600 transition-colors">
-                resume@squarerootindia.com<br />
-                for sales@squarerootindia.com
+              <a href="mailto:nrworkforce@gmail.com" className="text-gray-700 hover:text-blue-600 transition-colors">
+                  nrworkforce@gmail.com 
+              </a>
+            </li>
+            <li className="flex items-start">
+              <FaEnvelope className="text-blue-600 mt-1 mr-3 text-xl flex-shrink-0" />
+              <a href="mailto:info@nrworkforce.com" className="text-gray-700 hover:text-blue-600 transition-colors">
+                  info@nrworkforce.com 
               </a>
             </li>
           </ul>

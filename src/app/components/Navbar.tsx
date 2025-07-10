@@ -40,7 +40,7 @@ export default function Navbar() {
         <div className="flex items-center gap-3"> {/* Increased gap */}
           {/* Assuming /logo4.png exists and is styled appropriately */}
           <img
-            src="/logoWithName.png"
+            src="/logo.png"
             alt="NR Work Force Logo"
             className="h-8 w-auto sm:h-10"
           />
