@@ -29,7 +29,7 @@ const AboutPage = () => {
         >
           {/* Main H1 for the About section - clearly states the purpose */}
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight text-gray-900 mb-12">
-            About NR Workforce - Your Trusted Job Consultancy
+            About NR Workforce 
           </h1>
 
           {/* ───────────── Bringing People Together Section ───────────── */}
@@ -41,8 +41,9 @@ const AboutPage = () => {
                   Connecting Talent with Opportunity
                 </h2>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  At <strong>NR Workforce</strong>, we specialize in **job consultancy** and **recruitment services**, driven by the belief in the power of meaningful connections. Our core mission is to bridge top talent with forward-thinking organizations, creating opportunities where both individuals and businesses thrive. More than just **recruiters**, we are dedicated **strategic partners** focused on delivering long-term success and fostering lasting relationships in the **employment sector**. We aim to simplify the **job search** process for candidates and streamline **talent acquisition** for companies.
+                  At <strong>NR Workforce</strong>, we specialize in <strong>job consultancy</strong> and <strong>recruitment services</strong>, driven by the belief in the power of meaningful connections. Our core mission is to bridge top talent with forward-thinking organizations, creating opportunities where both individuals and businesses thrive. More than just <strong>recruiters</strong>, we are dedicated <strong>strategic partners</strong> focused on delivering long-term success and fostering lasting relationships in the <strong>employment sector</strong>. We aim to simplify the <strong>job search</strong> process for candidates and streamline <strong>talent acquisition</strong> for companies.
                 </p>
+
               </div>
 
               {/* Animation for "Bringing People Together" */}
@@ -64,7 +65,7 @@ const AboutPage = () => {
                   Our Vision for Career Growth & Excellence
                 </h2>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Our vision is to become a leading **job placement agency** and catalyst in connecting ambition with opportunity. We strive to create an environment where professionals find their **ideal careers** through expert **career guidance**, and companies secure **exceptional talent** that drives their growth. We’re deeply committed to transparency, integrity, and continuous growth, consistently driving innovation and excellence across every industry we serve in the **staffing solutions** landscape.
+                  Our vision is to become a leading <strong>job placement agency</strong> and catalyst in connecting ambition with opportunity. We strive to create an environment where professionals find their <strong>ideal careers</strong> through expert <strong>career guidance</strong>, and companies secure <strong>exceptional talent</strong> that drives their growth. We’re deeply committed to transparency, integrity, and continuous growth, consistently driving innovation and excellence across every industry we serve in the <strong>staffing solutions</strong> landscape.
                 </p>
               </div>
 
@@ -87,7 +88,7 @@ const AboutPage = () => {
                   Empowering Through Strategic Hiring & Support
                 </h2>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Our mission is to empower individuals and organizations through **strategic hiring** and comprehensive **career guidance**. By combining deep industry insights, cutting-edge technology, and a highly personalized approach, we simplify the entire **recruitment process**—making it efficient, fair, and impactful for all involved. We are dedicated to building lasting partnerships and fostering meaningful professional growth, ensuring NR Workforce remains a top choice for **hiring solutions** and **job opportunities** in Hyderabad and beyond.
+                  Our mission is to empower individuals and organizations through <strong>strategic hiring</strong> and comprehensive <strong>career guidance</strong>. By combining deep industry insights, cutting-edge technology, and a highly personalized approach, we simplify the entire <strong>recruitment process</strong>—making it efficient, fair, and impactful for all involved. We are dedicated to building lasting partnerships and fostering meaningful professional growth, ensuring NR Workforce remains a top choice for <strong>hiring solutions</strong> and <strong>job opportunities</strong> in Hyderabad and beyond.
                 </p>
               </div>
 
